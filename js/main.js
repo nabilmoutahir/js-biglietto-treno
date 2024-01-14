@@ -25,3 +25,13 @@ if(userAge < 18) {
     console.log ("Il prezzo è di " + discountPriceUnder.toFixed(2) + " Euro")
 }
 
+// se over 65
+if(userAge > 65) {
+    // calcolo e applico sconto 40%
+    let discountPriceOver = (ticketPrice - (ticketPrice * 0.4))
+    console.log ("Se over 65 il prezzo è di " + discountPriceOver.toFixed(2) + " Euro")
+
+    // stampo biglietto
+    document.getElementById ("ticket_result").innerText = (discountPriceOver.toFixed(2) + " Euro")
+    console.log ("Il prezzo è di " + discountPriceOver.toFixed(2) + " Euro")
+}
