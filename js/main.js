@@ -6,4 +6,7 @@ console.log ('Distanza utente ' + userDistance + ' km');
 const userAge = parseInt (prompt("Quanti anni hai?"));
 console.log ('Età utente ' + userAge + ' anni');
 
+// calcolo il prezzo del biglietto in base ai km (0.21 euro al km)
+let ticketPrice = (userDistance * 0.21);
+console.log (ticketPrice + " Euro");
 
