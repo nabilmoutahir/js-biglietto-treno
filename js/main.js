@@ -10,3 +10,8 @@ console.log ('Età utente ' + userAge + ' anni');
 let ticketPrice = (userDistance * 0.21);
 console.log (ticketPrice + " Euro");
 
+// stampo biglietto
+document.getElementById ("ticket_result").innerText = (ticketPrice + " Euro")
+console.log ("Il prezzo è di " + ticketPrice + " Euro")
+
+
